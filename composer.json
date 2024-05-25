@@ -1,0 +1,21 @@
+{
+  "name": "brenik/hr",
+  "description": "Magento2 module Human Resources. HRMS (Human Resource Management System)",
+  "type": "magento2-module",
+  "homepage": "https://github.com/brenik/hr",
+  "version": "0.0.1",
+  "authors": [
+    {
+      "name": "Human Resources",
+      "email": "vitaliy.brenyk@gmail.com"
+    }
+  ],
+  "autoload": {
+    "files": [
+      "registration.php"
+    ],
+    "psr-4": {
+      "Brenik\\Hr\\": ""
+    }
+  }
+}
